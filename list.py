@@ -109,6 +109,8 @@ list_constructor = list(lis)
 print(list_constructor)
 
 # list method
+#python has set of built-in methods thaT you can use on lists
+
 #append()method : Adds an element at the end of the list
 #clear() :removes all the elements from the list
 #copy() : Return a copy of the list
@@ -117,4 +119,13 @@ print(list_constructor)
 #index() : Return the index of the first element with the specified value
 #insert() : Add an element at the specified value
 #pop() : Removes the element at the specified
-#remove : removes the element at the specified position
+
+#reverse(): reverse the order of the list
+l = [1,2,3,4,53,4,34,54,38]
+l.reverse()
+print(l)#[38, 54, 34, 4, 53, 4, 3, 2, 1]
+#remove(): removes the element at the specified position
+
+#sort(): Sort the list alphabetically
+l.sort()
+print(l) #[1, 2, 3, 4, 4, 34, 38, 53, 54]
