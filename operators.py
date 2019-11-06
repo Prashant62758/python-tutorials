@@ -132,7 +132,9 @@ print(x > 6 and x < 5) #return false because 4 is less then 6 AND 4 is less then
 # return true if one ot the statement is true
 
 x = 5
-print(x > 4 or x < 3) # return true because one of the conditions are true 5 is grater then 4 OR  5 is not less then 3
+print(x > 4 or x < 3)
+ # return true because one of the conditions are true 5 is grater then 4 
+ # OR  5 is not less then 3
 
 #NOT Operators
 #Reverse the result, return false if the result is true
@@ -158,7 +160,8 @@ print(x is z)
 #return True because z is the same object as x
 
 print(x == y)
-#to demonsatrate the different between "is" and  "==" : this comparison return True because x is equal to y
+#to demonsatrate the different between "is" and  "==" :
+#  this comparison return True because x is equal to y
 
 #IS NOT Operators 
 # return true if both variables are not the same object
