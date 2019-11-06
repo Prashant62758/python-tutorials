@@ -70,3 +70,19 @@ t1 = ('brown','black')
 t2 = ('green','yellow')
 t = t1 + t2
 print(t)
+
+#Tuple method 
+#python has two built-in methods that you can use on tuples
+#COUNT AND INDEX
+
+#count
+# return the number of times a specifieD value occurs in a tuple
+tp = (1,2,3,4,5,6,4,8)
+count_item = tp.count(4)
+print(count_item)
+
+#index
+#searches the tuple for a specified  vaLUE ANd RETuRNS THE POsITION oF WHERE IT WAS FOUND
+tp = (1,2,3,4,5,6,4,8)
+index_item = tp.index(4)
+print(index_item)
