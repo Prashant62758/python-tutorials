@@ -1,7 +1,7 @@
 #list : list is a collection which is ordered and changeable. Allows duplicate members
 #tuple : Tuple a is collection which is ordered and unchangeable. Allows duplicate members
 #set : Set is a collection which is unordered and unindexed. No duplicate members
-#dictionary: Dictionary is a collecation which is unordered, 
+#dictionary: Dictionary is a collection which is unordered, 
 # changeable and indexed . no duplicate 
 
 #LIST
