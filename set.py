@@ -6,7 +6,7 @@
 #create a set
 s = {1,2,3,4,5,6,7}
 print(s) 
-#Note : SETS ARE UNORDERED SO YOU CANNOT BE SURE IN WHICH ITEMS WILL APPEA.
+#Note : SETS ARE UNORDERED SO YOU CANNOT BE SURE IN WHICH ITEMS WILL APPEAr
 
 
 #loop through the set
