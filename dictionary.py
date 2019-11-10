@@ -110,6 +110,8 @@ z = dic.keys()
 print(z)
 
 #pop() : remove the elements with the specified key
+dic.pop('name')
+print(dic)
 #popitems() : removes the last inserted key value paIR
 #setdefault(): return the value of thE specified key.
 #  if the code does not exist : insert the key with the specified value
