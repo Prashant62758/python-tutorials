@@ -35,7 +35,7 @@ print(s)
 #get the length of a set 
 # to determine how many  items a set has use the len() method
 
-print(len(s))#get the number of items in a set 
+print(len(s)) #get the number of items in a set 
 
 #remove item
 #to remove item in a set use the remove() or the discard()method
