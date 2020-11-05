@@ -3,7 +3,6 @@ from random import randint
 guess_num =  randint(1,20)
 
 user_num = -1
-
 try_count = 1
 
 while guess_num != user_num:
