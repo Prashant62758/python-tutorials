@@ -1,7 +1,11 @@
 class Vechile:
-	def __init__(self,max_speed,mileage):
+	def __init__(self,name,max_speed,mileage):
+		self.name = name
 		self.max_speed = max_speed
 		self.mileage = mileage
 
-modelX = Vechile(240,180)
-print("speed : ", modelX.max_speed, "mileage : ", modelX.mileage)
+class Bike(Vechile):
+	pass
+
+bike_ktm = Bike('ktm duke', 240,18)
+print("vechile name : ",bike_ktm.name,"\nspeed : ", bike_ktm.max_speed, "\nmileage : ", bike_ktm.mileage)
